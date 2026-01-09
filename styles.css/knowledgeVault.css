@@ -40,6 +40,9 @@ nav .logo{
     width: 140px;
 }
 .primary-btn{
+    display: inline-flex;
+    text-align: center;
+    gap: 8px;  
     /* margin-right: 120px; */
     font-size: 16px;
     font-weight: 600;
@@ -49,8 +52,14 @@ nav .logo{
     background-color:#469165;
     border-style: none;
     border-radius: 4px;
+    cursor: pointer;
 
 }
+.primary-btn:hover {
+     background-color: #1f3d2b;
+    transition: background-color 0.3s ease;
+}
+
 #banner{
     width: 100%;
     /* margin: 0 auto; */
@@ -76,6 +85,7 @@ nav .logo{
     font-weight: 500;
     color: #30B868;
     margin-bottom: 16px;
+    cursor: pointer;
 
 }
 .banner-content h2{
@@ -101,6 +111,7 @@ nav .logo{
     background: transparent;
     border: 2px solid #FFFFFF;
     border-radius: 4px;
+    cursor: pointer;
     
 
 
