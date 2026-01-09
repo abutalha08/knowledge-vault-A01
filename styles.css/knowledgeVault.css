@@ -13,7 +13,7 @@ nav{
     width: 100%;
     max-width: 1600px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     /* border: 1px solid red; */
     margin: 0 auto;
     align-items: center;
@@ -40,7 +40,7 @@ nav .logo{
     width: 140px;
 }
 .primary-btn{
-    margin-right: 120px;
+    /* margin-right: 120px; */
     font-size: 16px;
     font-weight: 600;
     padding: 13px 16px;
@@ -216,6 +216,39 @@ nav .logo{
         color: #627382;
         margin-bottom: 40px;
     }
+    #think-section{
+        padding: 120px;
+        width: 1600px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .thinkText-area{
+        border-radius: 12px;
+        color: #F7F6F2;
+        
+        max-width: 1360px;
+        padding: 80px 40px;
+        /* border: 1px solid black; */
+
+    }
+     .thinkText-area h2{
+        font-size: 40px;
+        font-weight: bold;
+        color: #001931;
+        margin-bottom: 16px;
+    
+     }
+         .thinkText-area p{
+            font-size: 16px;
+            line-height: 24px;
+            color: #627382;
+            margin-bottom: 24px;
+
+         }
+             .thinkText-area button{
+                margin-bottom: 16px;
+             }
+
 
 
 
